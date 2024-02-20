@@ -25,7 +25,7 @@ export default function ButtonContainer({
       }}
       onClick={onPress}
     >
-      <div className="text-justify text-[32px]">{indicator}</div>
+      <div className="text-justify text-2xl sm:text-[32px]">{indicator}</div>
     </div>
   );
 }
