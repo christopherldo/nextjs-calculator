@@ -5,7 +5,7 @@ import Result from "@/components/Result";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="h-dvh">
       <div className="flex h-screen flex-col items-center bg-[#17171c] px-[20px]">
         <ColorThemeSwitcher />
         <div className="mb-8 mt-[55px] flex w-full flex-1 flex-col gap-4">
